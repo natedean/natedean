@@ -1,0 +1,4 @@
+baseURL = "http://natedean.tech/"
+languageCode = "en-us"
+title = "Nate's HUGO"
+theme = "ananke"
