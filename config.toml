@@ -1,4 +1,29 @@
-baseURL = "http://natedean.tech/"
+baseURL = "https://blog.guitarthinker.com/"
 languageCode = "en-us"
-title = "Nate's HUGO"
+title = "GuitarThinker Blog"
 theme = "ananke"
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = ""
+  description = "GuitarThinker Blog"
+  facebook = "https://www.facebook.com/guitarthinker/"
+  twitter = "https://twitter.com/GuitarThinker"
+  instagram = "https://www.instagram.com/guitarthinker/"
+  youtube = "https://www.youtube.com/user/GuitarThinker/"
+  github = "https://github.com/natedean"
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+  recent_posts_number = 2
