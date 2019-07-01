@@ -1,5 +1,5 @@
 ---
-title: "Curious?"
+title: "Music . Code"
 featured_image: '/images/guitars.jpg'
-description: "Here's what is going on"
+description: "Thoughts and Explanations"
 ---
