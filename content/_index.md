@@ -1,5 +1,5 @@
 ---
 title: "Music . Code"
 featured_image: '/images/guitars.jpg'
-description: "Thoughts and Explanations"
+description: "And other things. Thoughts and explanations."
 ---
