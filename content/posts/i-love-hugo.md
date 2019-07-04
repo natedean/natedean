@@ -21,7 +21,7 @@ This site is built with [Hugo](https://gohugo.io/), and Hugo is my new favorite 
 
 ### Embracing the Hugo future
 
-I want to build more with Hugo, especially since the static files it generates are practically free to host on Amazon S3.  I am looking forward to playing with different themes, and learning more about some of the more advanced features of the framework, and practicing using them.
+I am excited about building more with Hugo, especially since the static files it generates are practically free to host on Amazon S3.  Looking forward to experimenting with different themes, and learning more about some of the more advanced features of the framework, and practicing using them.
 
 Sometimes you find a tool the just *feels* right.  It just fits you.  And that, is a beautiful thing.
 
