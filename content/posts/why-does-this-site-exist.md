@@ -6,9 +6,9 @@ tags: [personal, code]
 
 ## The Beginning
 
-I used to have a blog, GuitarThinker.com, a while ago... It was a Wordpress site, and it was pretty cool.  Over time, some pretty valuable and interesting content was created.  Posts included guitar lessons, music theory explanations, chord charts, and a few interviews with really interesting musicians, some were actually pretty famous.
+I used to have a blog, GuitarThinker.com, a while ago... It was a Wordpress site, and it was pretty cool.  Over time, some pretty interesting and valuable content was created.  Posts included guitar lessons, music theory explanations, chord charts, and a few interviews with really interesting musicians, some were actually pretty famous.
 
-Wanting to move towards more helpful context, I picked up a book, learned to write a little code, and started building cool Flash games that people could play to practice musical concepts, like how to spell chords, or memorize the notes on the guitar fretboard.
+Wanting to move towards more ever-more-helpful content, I picked up a book, learned to write a little code, and started building cool Flash games that people could play to practice musical concepts, like how to spell chords, or memorize the notes on the guitar fretboard.
 
 Writing those games in Flash, with ActionScript 3, got me hooked on programming computers.  I couldn't get enough.  The code bug bit me.  But there was a problem, Flash was about to die a horrible death.  The iPhone had just come out and Apple had announced the iPhone wouldn't support Flash, and that was the beginning of the end for that platform.
 
