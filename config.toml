@@ -7,7 +7,7 @@ MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 Paginate = 6
-googleAnalytics = ""
+googleAnalytics = "UA-143772956-1"
 enableRobotsTXT = true
 
 [sitemap]
@@ -27,7 +27,7 @@ enableRobotsTXT = true
   featured_image = "/images/guitars.jpg"
   recent_posts_number = 6
 
-[[menu.main]]
+[[menu.extended]]
     name = "GuitarThinker"
     title = "GuitarThinker.com"
     url = "https://guitarthinker.com"
