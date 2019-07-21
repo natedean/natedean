@@ -1,6 +1,6 @@
 ---
 title : "Less Social Please"
-date: 2019-07-13T00:17:37-05:00
+date: 2019-07-20T00:17:37-05:00
 tags: ["self-improvement"]
 featured_image: ""
 description: "Why you should spend less time staring at your phone"
