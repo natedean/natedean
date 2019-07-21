@@ -41,7 +41,7 @@ One thing I like to do when I find myself scrolling around in an unproductive ma
 
 These are technology focused, but usually have good intellectual content relating to other interesting subjects. Any content aggregator that is vote based (so you can scan to see if there is anything very popular based on number of votes) and smart (the voters are intelligent) in nature is a good bet.
 
-As a musician, and a software/web builder, for the last 8 years I have been working on developing apps that help others learn, study, and practice music. Most recently, the latest version of [GuitarThinker.com](https://GuitarThinker.com). *shameless plug*
+As a musician, and a software/web builder, for the last few years I have been working on developing apps that help others learn, study, and practice music. Most recently, the latest version of [GuitarThinker.com](https://GuitarThinker.com). *shameless plug*
 
 Maybe the best thing to do though, is just turn off your connected device and [read a book](https://natedean.info/posts/read-books).
 
