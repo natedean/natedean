@@ -1,6 +1,7 @@
 ---
 title: "Why does this site exist?"
 date: 2019-06-24T23:05:48-05:00
+featured_image: "/images/light-bulb.jpg"
 tags: [personal, code]
 ---
 
@@ -18,7 +19,7 @@ So, I started learning JavaScript. As the new HTML5 specifications promised Flas
 
 ## The Mistake
 
-So, there I was, having rebuilt some flash games with web tech, and feeling pretty good.  And then I did the unthinkable.  I took down the Wordpress site.  I didn't back up the posts, or save them in any way.  They were just gone.  The gravity of the situation didn't hit me until years later when I realized all that SEO, the lessons, the interviews, the great content, were gone forever.  I was focused on the new shiny.  Obsessed with the new things I was creating, the older things were discounted and disregarded. I didn't take the time to preserve the good things I had made, because interviews and blog posts didn't fit with the interactive future I had imagined for GuitarThinker.com.
+So there I was, having rebuilt some flash games with web tech, and feeling pretty good.  And then I did the unthinkable.  I took down the Wordpress site.  I didn't back up the posts, or save them in any way.  They were just gone.  The gravity of the situation didn't hit me until years later when I realized all the lessons, the interviews, the great content, were gone forever.  I had been too focused on the new shiny.  Obsessed with the new things I was creating, the older things were discounted and disregarded. I didn't take the time to preserve the good things I had made, because interviews and blog posts didn't fit with the interactive future I had imagined for GuitarThinker.com.
 
 I have rebuilt that site at least four times since then, in jQuery, Angular 1x, Angular 2+, React/Redux, etc.  After all, a web professional has to keep up with the latest JavaScript frameworks.  The focus has always been on games and interactivity, and there hasn't been a blog component, or any place to share anything that's not specifically music related.
 
