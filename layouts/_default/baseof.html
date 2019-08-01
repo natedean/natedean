@@ -8,6 +8,12 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
 
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
+
+    {{ with or .Keywords .Params.tags }}
+    <meta name="keywords" content="{{ range $i, $e := . }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}">
+    {{ end }}
+
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     {{ .Hugo.Generator }}
     {{/* NOTE: For Production make sure you add `HUGO_ENV="production"` before your build command */}}
@@ -30,15 +36,24 @@
     {{ partialCached "site-favicon.html" . }}
     {{ end }}
 
+    <link rel="canonical" href="{{ .Permalink }}" />
+
     {{ if .RSSLink }}
     <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
     <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+    {{ end }}
+
+    {{ with .Params.featured_image }}
+    <meta property="og:image" content="{{ . | absURL}}"/>
     {{ end }}
 
     {{/* NOTE: These Hugo Internal Templates can be found starting at https://github.com/spf13/hugo/blob/master/tpl/tplimpl/template_embedded.go#L158 */}}
     {{- template "_internal/opengraph.html" . -}}
     {{- template "_internal/google_news.html" . -}}
     {{- template "_internal/schema.html" . -}}
+
+    <meta name="twitter:site" content="@guitarthinker">
+    <meta name="twitter:creator" content="@guitarthinker">
     {{- template "_internal/twitter_cards.html" . -}}
 </head>
 
