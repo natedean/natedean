@@ -8,7 +8,7 @@ description: "Why you should spend less time staring at your phone"
 
 I have social media accounts, but I rarely check them. I won't delete them, because I enjoy the power of communication that they provide, and see them as necessary tools of the modern connected world.
 
-I do regularly observe that many people, in most ways seemingly rational, seem to be completely obsessed with staring down at their phone and scrolling through the feed of their preferred social media site. They usually don't realize the extent to which they are addicted, or the extent to which this addiction hurts their lives.
+I do regularly observe that many people, in most ways seemingly rational, seem to be completely obsessed with staring down at their phone and scrolling through the feed of their preferred social media site. They don't realize the extent to which they are addicted, or the extent to which this addiction hurts their lives.
 
 There have been many news stories in the past few years about the dopamine rush (of a like, a comment, or a post) that cause this addiction, so I won't go into defending that it is a thing.
 
