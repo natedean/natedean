@@ -47,7 +47,7 @@ To expand on this example, my mental model for conversations is roughly:
 * Listen more than you talk, let the other person do the majority of the talking.
 * To encourage your partner to speak, ask questions about things that interest them.
 * Show a genuine interest as your partner is talking. Use eye contact, nods, and mirroring comments.
-* To avoid your mind wandering as you are listening, pay attention and occasionally summarize or "label" what a person is saying. Listening like this can prevent the mind from drifting away, and when you summarize someone's point of view, you are communicating that you paying attention. It's also a way to build trust.
+* To avoid your mind wandering as you are listening, pay attention and occasionally summarize or "label" what a person is saying. Listening like this can prevent the mind from drifting away, and when you summarize someone's point of view, you are communicating that you are paying attention. It's also a way to build trust.
 * Smile. Be real. Let that person know you care about them.
 
 There are more, but this gives the idea. I'm sure you've met many people that do not have a good mental model of how to be a good conversationalist. They talk only of themselves, they don't listen, and they are mostly dreadful and boring to speak with.
