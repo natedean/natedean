@@ -8,11 +8,15 @@
 <article class="flex-l flex-wrap justify-between mw8 center ph3">
     <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
         {{- .Content -}}
+        <hr>
+        {{ $urlPre := "https://tqscqakffi.execute-api.us-east-2.amazonaws.com" }}
+        {{ $books := getJSON $urlPre "/dev/books" }}
+        {{ range $books }}
+            {{ partial "book.html" . }}
+        {{ end }}
     </section>
-
     <aside class="w-30-l mt6-l">
         {{- partial "menu-contextual.html" . -}}
     </aside>
-
 </article>
 {{ end }}
