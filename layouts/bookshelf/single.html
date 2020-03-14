@@ -6,13 +6,26 @@
 {{ define "main" }}
 {{ $section := .Site.GetPage "section" .Section }}
 <article class="flex-l flex-wrap justify-between mw8 center ph3">
-    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l pt3">
         {{- .Content -}}
         <hr>
         {{ $urlPre := "https://tqscqakffi.execute-api.us-east-2.amazonaws.com" }}
         {{ $books := getJSON $urlPre "/dev/books" }}
-        {{ range $books }}
+        {{ $finishedBooks := where $books "num_times_read" ">=" 1 }}
+        {{ $unfinishedBooks := where (where $books "num_times_read" "<" 1) "num_times_read" ">" 0  }}
+        {{ $unstartedBooks := where $books "num_times_read" 0 }}
+        {{ range $finishedBooks }}
             {{ partial "book.html" . }}
+        {{ end }}
+        <hr>
+        <h3>Current reading list</h3>
+        {{ range $unstartedBooks }}
+            {{ partial "book.html" . }}
+        {{ end }}
+        <hr>
+        <h3>Started but not finished</h3>
+        {{ range $unfinishedBooks }}
+        {{ partial "book.html" . }}
         {{ end }}
     </section>
     <aside class="w-30-l mt6-l">
