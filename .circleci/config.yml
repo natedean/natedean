@@ -1,5 +1,5 @@
 jobs:
-  build:
+  deploy:
     docker:
       - image: 'cimg/python:3.6'
     steps:
