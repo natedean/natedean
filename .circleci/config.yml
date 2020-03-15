@@ -15,6 +15,7 @@ jobs:
           from: my-site/public
           overwrite: true
           to: 's3://natedean'
+      - run: aws cloudfront create-invalidation --distribution-id AWS_CDN_DISTRIBUTION_ID_BLUE --paths "/*"
 orbs:
   hugo: circleci/hugo@0.2
   aws-s3: circleci/aws-s3@1.0.15
