@@ -4,7 +4,6 @@ jobs:
       - image: 'cimg/python:3.6'
     steps:
       - aws-s3/sync:
-      - aws-s3/sync:
           arguments: |
             --acl public-read \
             --cache-control "max-age=86400"
