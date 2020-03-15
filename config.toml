@@ -36,3 +36,26 @@ enableRobotsTXT = true
 [caches]
 [caches.getjson]
   maxAge = "1h" # set to -1 to bust cache at any time
+
+[deployment]
+order = [".jpg$", ".gif$"]
+
+[[deployment.targets]]
+name = "s3"
+URL = "s3://natedean?region=us-east-2"
+cloudFrontDistributionID = "E4ZLRDD7VR6HD"
+
+[[deployment.matchers]]
+#  Cache static assets for 1 year.
+pattern = "^.+\\.(js|css|svg|ttf)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(png|jpg)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = false
+
+[[deployment.matchers]]
+pattern = "^.+\\.(html|xml|json)$"
+gzip = true
