@@ -7,7 +7,7 @@ jobs:
           at: my-site
       - run: ls -lah my-site
 orbs:
-  hugo: circleci/hugo@0.55
+  hugo: circleci/hugo@0.2
 version: 2.1
 workflows:
   main:
