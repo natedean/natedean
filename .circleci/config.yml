@@ -1,11 +1,11 @@
 jobs:
   deploy:
     docker:
-      - image: cibuilds/hugo:latest
+      - image: cibuilds/base
     steps:
       - attach_workspace:
           at: my-site
-      - run: hugo deploy
+      - run: aws s3 cp public/ s3://natedean --recursive
 orbs:
   hugo: circleci/hugo@0.2
 version: 2.1
