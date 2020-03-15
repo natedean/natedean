@@ -5,7 +5,7 @@ jobs:
     steps:
       - attach_workspace:
           at: my-site
-      - run: ls -lah my-site
+      - run: hugo deploy
 orbs:
   hugo: circleci/hugo@0.2
 version: 2.1
@@ -22,5 +22,3 @@ workflows:
               only: master
           requires:
             - hugo/build
-          command: |
-            hugo deploy
