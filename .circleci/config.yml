@@ -12,7 +12,7 @@ jobs:
           aws-access-key-id: AWS_ACCESS_KEY_ID_BLUE
           aws-region: AWS_REGION_BLUE
           aws-secret-access-key: AWS_SECRET_ACCESS_KEY_BLUE
-          from: public
+          from: my-site/public
           overwrite: true
           to: 's3://natedean'
 orbs:
