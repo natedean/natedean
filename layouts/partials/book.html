@@ -12,5 +12,13 @@
         <div>
             {{if .is_fiction}}Fiction {{else}}Non-Fiction {{end}}
         </div>
+        {{if .notes}}
+            Notes:
+            <ul>
+                {{ range .notes }}
+                    <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+        {{end}}
     </div>
 </details>
