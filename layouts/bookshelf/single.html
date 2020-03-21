@@ -8,6 +8,10 @@
 <article class="flex-l flex-wrap justify-between mw8 center ph3">
     <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l pt3">
         {{- .Content -}}
+        <p>Books that are physically on my bookshelf are marked with a
+            <span class="ml1">{{- partial "svg/bookshelf" -}}</span>.
+          Other books have been borrowed digitally and are on my list to buy.
+        </p>
         {{ $urlPre := "https://tqscqakffi.execute-api.us-east-2.amazonaws.com" }}
         {{ $books := getJSON $urlPre "/dev/books" }}
         {{ $finishedBooks := where $books "num_times_read" ">=" 1 }}
@@ -29,7 +33,6 @@
             {{ end }}
         </div>
         <hr>
-
         <div class="mb4">
             <h3>Current reading list</h3>
             {{ range $unstartedBooks }}
