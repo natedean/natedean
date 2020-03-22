@@ -5,7 +5,15 @@
     </summary>
     <div style="font-size: 0.8em; padding: 0.6rem 0 0 0.6rem">
         <div>
-            Impact: {{.impact}}
+            Impact:
+            {{if .impact}}
+                {{range $index, $num := (seq .impact) }}
+                    {{- partial "svg/trophy.html" -}}
+                {{end}}
+            {{else}}
+                None
+            {{end}}
+
         </div>
         <div>
             Times read: {{.num_times_read}}
@@ -13,6 +21,9 @@
         <div>
             {{if .is_fiction}}Fiction {{else}}Non-Fiction {{end}}
         </div>
+        {{if .series}}
+            <div>Series: {{ .series }}</div>
+        {{end}}
         {{if .notes}}
             Notes:
             <ul>

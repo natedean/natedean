@@ -7,8 +7,8 @@ layout: "single"
 ---
 
 Consistently reading books has made an enormous positive impact on my life.
-
-Inspired by Patrick Collison's [bookshelf](https://patrickcollison.com/bookshelf), here is a list of books I have read
-ordered roughly by their impact.
+Inspired by Patrick Collison's [bookshelf](https://patrickcollison.com/bookshelf),
+here is a list of books ordered roughly by their impact on my life.
 
 This list is intended to be regularly updated and is likely plagued by recency bias.
+Sections are: non-fiction, fiction, current reading list, and started but not finished.
